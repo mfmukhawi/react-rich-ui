@@ -3,3 +3,7 @@
   color: #dc3545;
   display: inline;
 }
+
+label{
+  display: block;
+}
