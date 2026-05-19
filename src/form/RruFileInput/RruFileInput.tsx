@@ -71,7 +71,6 @@ const RruFileInput: FC<RruFileInputProps> = (props) => {
           {getLabel()}
         </div>
         <input
-          id={props.name}
           key={props.shouldTriggerOnChangeOnSameFile ? key : 0}
           aria-label='Upload'
           type='file'
